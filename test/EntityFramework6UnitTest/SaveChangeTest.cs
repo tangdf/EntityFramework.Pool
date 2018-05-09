@@ -13,9 +13,9 @@ namespace EntityFramework6UnitTest
 
         public SaveChangeTest()
         {
-            using (var dataContext = new SampleDbContext()) {
-                List<Category> lst = dataContext.Categories.ToList();
-            }
+            //using (var dataContext = new SampleDbContext()) {
+            //    List<Category> lst = dataContext.Categories.ToList();
+            //}
         }
 
         [Fact]

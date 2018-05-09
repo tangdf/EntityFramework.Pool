@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>ConsoleApp</RootNamespace>
     <AssemblyName>ConsoleApp</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
@@ -58,9 +58,9 @@
       <Project>{e06d1c12-efe8-4413-a15c-ae01fc158f2f}</Project>
       <Name>EntityFramework</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EntityFramework6UnitTest\EntityFramework6UnitTest.csproj">
-      <Project>{ebd5f5c6-71e2-42e5-bd35-3d2b184d02a9}</Project>
-      <Name>EntityFramework6UnitTest</Name>
+    <ProjectReference Include="..\EntityFramework.Pool.Test\EntityFramework.Pool.Test.csproj">
+      <Project>{3a0790d8-c4ab-467c-87de-1fdc4d8930b4}</Project>
+      <Name>EntityFramework.Pool.Test</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
